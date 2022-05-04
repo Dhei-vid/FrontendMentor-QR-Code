@@ -5,8 +5,13 @@
   --color-primary-darker: hsl(218, 44%, 22%);
 }
 
+html {
+  font-size: 60%;
+}
+
 body {
   background: var(--color-primary);
+  font-family: Outfit;
 }
 
 .main {
@@ -21,8 +26,7 @@ body {
 }
 
 .card--main {
-  margin: 5em;
-  height: 70%;
+  margin: 5rem;
 }
 
 .card--1 {
@@ -62,14 +66,7 @@ img {
 }
 
 .text--style {
-  font-family: Outfit;
   padding: 1rem 4rem;
-}
-
-.head--text {
-  font-size: 1rem;
-  font-weight: 700;
-  font-size: 1.2em;
 }
 
 .attribution a {
